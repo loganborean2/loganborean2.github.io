@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TrumpRunner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link rel="stylesheet" type="text/css" href="style/trumprunner.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type='application/javascript' src='js/Libraries/FastClick.js'></script>
+
+
+    <script src="js/Main.js"></script>
+
+    <script src="js/Pages/Page.js"></script>
+    <!-- Page.js must be before all Page objects -->
+    <script src="js/Pages/Achievements.js"></script>
+    <script src="js/Pages/Defeat.js"></script>
+    <script src="js/Pages/Game.js"></script>
+    <script src="js/Pages/HighScore.js"></script>
+    <script src="js/Pages/LoadingScreen.js"></script>
+    <script src="js/Pages/Login.js"></script>
+    <script src="js/Pages/Menu.js"></script>
+    <script src="js/Pages/Register.js"></script>
+    <script src="js/Pages/Tutorial.js"></script>
+    <script src="js/Pages/Victory.js"></script>
+
+    <script src="js/Components/Canvas.js"></script>
+    <script src="js/Components/Grid.js"></script>
+    <script src="js/Components/OrientationListener.js"></script>
+    <script src="js/Components/PlayerData.js"></script>
+    <script src="js/Components/ScoringSystem.js"></script>
+
+
+    <script src="js/Resources/CanvasManager.js"></script>
+    <script src="js/Resources/ResourceManager.js"></script>
+    <script src="js/Resources/LevelManager.js"></script>
+
+    <script src="js/Entities/Entity.js"></script>
+    <!-- Entity.js must be before all Entity objects -->
+    <script src="js/Entities/Mine.js"></script>
+    <script src="js/Entities/WhiteHouse.js"></script>
+    <script src="js/Entities/Trump.js"></script>
+    <script src="js/Entities/Star.js"></script>
+    <script src="js/Entities/SprayTan.js"></script>
+    <script src="js/Entities/Certificate.js"></script>
+
+</head>
+<body onload="new Main()">
+
+    <div id="container"></div>
+
+</body>
+</html>
